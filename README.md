@@ -110,7 +110,7 @@ ENGINE = InnoDB
 DEFAULT CHARACTER SET = utf8;
 
 ```
-然后在`oauth_client_details`表中插入记录:
+然后在`oauth_client_details`表中插入一条记录:
 ```
 INSERT INTO oauth_client_details
 (client_id, resource_ids, client_secret, scope, authorized_grant_types, web_server_redirect_uri, authorities, access_token_validity, refresh_token_validity, additional_information, autoapprove)
